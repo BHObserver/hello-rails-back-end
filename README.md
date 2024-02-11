@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails React <a name="about-project"></a>
+# 📖 Hello Rails-Backend <a name="about-project"></a>
 
-**Hello Rails React** is a classic example of using rails with react and display a random message with API.
+**Hello-Rails-Backend** is a classic example of using rails with react and display a random message with API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,7 +82,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/BHObserver/hello-rails-react
+  git clone https://github.com/BHObserver/hello-rails-backend/
 ```
 
 ### Install
@@ -126,7 +126,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/BHObserver/hello-rails-react/issues).
+Feel free to check the [issues page](https://github.com/BHObserver/hello-rails-backend/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
