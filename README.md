@@ -1,113 +1,124 @@
-<a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello World project](#-hello-world-project)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [Frontend Link ](#frontend-link-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails-Backend <a name="about-project"></a>
+# 📖 Hello World project
 
-**Hello-Rails-Backend** is a classic example of using rails with react and display a random message with API.
+**The Hello World project**
 
 ## 🛠 Built With <a name="built-with"></a>
+- ✅ Ruby
+- ✅ Rails
+- ✅ Postgresql
+- ✅ Linters
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Language</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://guides.rubyonrails.org/">Ruby On Rails</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://react.dev/">React</a></li>
+    <li>Rails</li>
   </ul>
 </details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/docs/">Postgresql</a></li>
-  </ul>
-</details>
-
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Linters**
-- **Database**
-- **API**
+- 🔰 **Static view**
+- 🔰 **Generate greeting**
+- 🔰 **Api path**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FRONTEND LINK -->
 
+## Frontend Link <a name="frontend-link"></a>
+
+- React Frontend Link [here](https://github.com/BHObserver/hello-rails-front-end/tree/feature/display-greeting)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+**To get a local copy up and running, follow these steps.**
+
+1. Download or clone this [repostory](https://github.com/BHObserver/hello-rails-front-end.git).
+2. Provide a modern web browser.
 
 ### Prerequisites
 
-In order to run this project you need:
+**In order to run this project you need:**
 
-```sh
-install RubyONRails
-```
+- ✔ Ruby installed in your machine. you can download it from [here](https://www.ruby-lang.org/en/downloads/)
+- ✔ IDE or a code editor installed in your machine.
+- ✔ IRB.
+- ✔ Get Postgresql up and running. you can download it from [here](https://www.postgresql.org/download/windows/).
+- ✔ [Git](https://git-scm.com/downloads) installed in your machine.
+- ✔ Sign in or sign up to your [Github](https://github.com/) account.
+- ✔ A professional editer such as [VS Code](https://code.visualstudio.com/download).
+- ✔ An Updated web browser such as Google Chrome, you can download it from [here](https://www.google.com/chrome/).
 
 ### Setup
 
-Clone this repository to your desired folder:
+- Clone this [repository](https://github.com/BHObserver/hello-rails-front-end.git) to your desired folder:
+
+- Run this command in your command line interface:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/BHObserver/hello-rails-backend/
-```
-
-### Install
-
-Install this project with:
-
-```sh
+  cd [YOUR FOLDER]
+  git https://github.com/BHObserver/hello-rails-front-end.git
+  cd hello-rails-back-end
   bundle install
+  code .
 ```
+
+- Update the database.yml with your database credentials under the development section
+
 
 ### Usage
 
-To run the project, execute the following command:
+- To run the project, execute the following command:
+
 ```sh
-  ./bin/dev
+    rails s
 ```
+
+### Deployment
+
+**This project is deployed by the author, no permission for deployment by any other client.**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Burhan Uddin**
 
-- GitHub: [Burhan Uddin](https://github.com/bhobserver)
+- GitHub: [@BHObserver](https://github.com/bhobserver)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -116,7 +127,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Message Details**
+- **Add a new page**
+- **Give a style**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +138,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/BHObserver/hello-rails-backend/issues).
+Feel free to check the [issues page](https://github.com/BHObserver/hello-rails-front-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +146,7 @@ Feel free to check the [issues page](https://github.com/BHObserver/hello-rails-b
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give it a star and share with your friends.
+If you like this project, kindly drop a start ⭐️ for the [repository](https://github.com/BHObserver/hello-rails-front-end.git);
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,20 +154,8 @@ If you like this project give it a star and share with your friends.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Al Amin Shakil to help me connect react with rails.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+I would like to express my heartfelt gratitude to **Microvere** for the invaluable learning experience they have provided.
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
- **Can I contribute to this project?**
-
-  - Yes, you can. You can fork you modification on this project. If it gets approval then we will merge your changes.
-
-- **What knowledge Should I have to create a project like this?**
-
-  - You should have basic RubyONRails Knowledge.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -163,3 +163,5 @@ I would like to thank Al Amin Shakil to help me connect react with rails.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
