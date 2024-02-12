@@ -1,0 +1,24 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  database: railsreact_development
+  pool: 5
+  username: postgres
+  password: BurSqlHan#007
+  host: localhost
+  port: 5432
+
+development:
+  <<: *default
+  database: railsbackend_development
+
+test:
+  <<: *default
+  database: railsbackend_test
+
+production:
+  <<: *default
+  database: railsbackend_production
+  username: postgres
+  password: BurSqlHan#007
